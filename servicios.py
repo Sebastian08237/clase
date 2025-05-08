@@ -46,6 +46,7 @@ def lista_estudiantes():
     estudiante2 = EstudianteEjemplo("3","Luis","28")
     estudiante3 = EstudianteEjemplo("4","Gabriel","25")
     estudiante4 = EstudianteEjemplo("5","Luciana","24")
+    estudiante4 = EstudianteEjemplo("6","Laura","29")
     estudiantes.append(estudiante.to_json())
     estudiantes.append(estudiante1.to_json())
     estudiantes.append(estudiante2.to_json())
